@@ -3,11 +3,12 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
-import Accueil from "./components/Accueil.jsx";
-import DameDuLac from "./components/DameDuLac.jsx";
-import Carte from "./components/Carte.jsx";
+import Accueil from "./pages/Accueil.jsx";
+import DameDuLac from "./pages/DameDuLac.jsx";
+import Carte from "./pages/Carte.jsx";
 
 import "./index.css";
+import DescriptionSite from "./pages/Description_sites.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/carte",
         element: <Carte />,
+      },
+      {
+        path: "/description",
+        element: <DescriptionSite />,
       },
     ],
   },
