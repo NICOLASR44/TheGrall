@@ -5,8 +5,12 @@ export default function DameDuLac() {
   return (
     <>
       <div className="dameContainer">
-        <h1 className="dameTitle">Je suis dans composant Dame Du Lac</h1>
-        <Link to="/carte">CARTE</Link>
+        <h1 className="dameTitle">Bonjour Arthur</h1>
+        <button className="dameButton">
+          <Link to="/carte" className="linkToCarte">
+            J&apos;Y VAIS
+          </Link>
+        </button>
       </div>
     </>
   );
