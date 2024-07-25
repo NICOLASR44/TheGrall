@@ -19,6 +19,8 @@
   background-position: center;
   width: 100vw;
   height: 100vh;
+  cursor: pointer;
+  position: relative;
   .dameTitle {
     background-color: var(--beigeFoncé);
     color: var(--bleuPrusse);
@@ -28,13 +30,20 @@
     border-radius: 10px;
   }
   .dameButton {
-    background-color: var(--beigeClair);
-    width: 100px;
+    background-color: #e5c99ada;
+    border: none;
+    width: 200px;
     padding: 10px;
     border-radius: 10px;
-    .linkToCarte {
-      color: var(--bleuPrusse);
-      text-decoration: none;
-    }
+    position: absolute;
+    bottom: 35px;
+    transition: transform 0.3s ease;
   }
+  .dameButton:hover {
+    transform: scale(1.1);
+  }
+}
+.linkToCarte {
+  color: var(--bleuPrusse);
+  text-decoration: none;
 }
