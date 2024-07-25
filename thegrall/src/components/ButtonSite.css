@@ -1,0 +1,21 @@
+.button.site {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+    
+  
+    .button.site.graal {
+        width: 5vh;
+      }
+      
+    .button.site.camelot {
+        width: 5vh;
+      }
+      
+    .button.site.avalon {
+        width: 5vh;      }
+      
+    .button.site.burgondes {
+        width: 5vh;      }
+   
