@@ -12,8 +12,8 @@
 
 .map-point {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 100px;
+  height: 100px;
   background-color: red;
   border-radius: 50%;
   cursor: pointer;
