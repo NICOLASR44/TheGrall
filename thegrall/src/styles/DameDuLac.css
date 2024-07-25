@@ -1,6 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --beigeClair: #e5c99a;
+  --beigeFoncé: #b28046;
+  --bleuPrusse: #103350;
+  --bleuFoncé: #242e35;
+}
+
 .dameContainer {
-  background-color: #552feb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--beigeFoncé);
+  background-image: url("../assets/DameDuLac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
   .dameTitle {
-    color: #f1e8e8;
+    background-color: var(--beigeFoncé);
+    color: var(--bleuPrusse);
+    text-align: center;
+    font-family: "Alegreya";
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .dameButton {
+    background-color: var(--beigeClair);
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    .linkToCarte {
+      color: var(--bleuPrusse);
+      text-decoration: none;
+    }
   }
 }
