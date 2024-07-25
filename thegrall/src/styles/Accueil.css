@@ -8,10 +8,38 @@
   position: fixed;
   top: 0;
   left: 0;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
- 
 }
+
+
+
 .accueilTitle {
-  color: black;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2em;
+  color: #333;
+
+}
+.btnLink{
+  background-color:#103350;
+  padding: 6px 20px;
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 7px;
+  opacity: 0.8;
+  border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease-in-out;
+}
+.btnLink:hover{
+  -webkit-box-shadow:0px 0px 105px 45px rgba(46,74,255,0.59);
+-moz-box-shadow: 0px 0px 105px 45px rgba(46,74,255,0.59);
+box-shadow: 0px 0px 105px 45px rgba(46,74,255,0.59);
 }
