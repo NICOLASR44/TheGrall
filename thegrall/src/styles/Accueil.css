@@ -1,6 +1,17 @@
 .accueilContainer {
   background-color: antiquewhite;
-  .accueilTitle {
-    color: black;
-  }
+  background-image: url("../assets/Accueil2.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+ 
+
+ 
+}
+.accueilTitle {
+  color: black;
 }
