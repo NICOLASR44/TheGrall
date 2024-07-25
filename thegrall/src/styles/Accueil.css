@@ -1,0 +1,6 @@
+.accueilContainer {
+  background-color: antiquewhite;
+  .accueilTitle {
+    color: black;
+  }
+}
