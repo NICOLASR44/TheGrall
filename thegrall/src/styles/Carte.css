@@ -12,9 +12,9 @@
 
 .map-point {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  width: 2rem;
+  /* height: 100px; */
+  /* background-color: red; */
   border-radius: 50%;
   cursor: pointer;
   transform: translate(-50%, -50%);

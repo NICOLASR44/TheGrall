@@ -20,7 +20,7 @@ const Carte = () => {
 				/>
 
 				<img
-					src="src\assets\saint-graal.png"
+					src="src\assets\button 2.png"
 					alt="Graal image"
 					className="map-point"
 					style={{ top: "50%", left: "50%" }}
