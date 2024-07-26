@@ -139,24 +139,24 @@ export default function ScrollDame() {
   return (
     <div className="App">
       <h1 className="title" ref={titleRef}>
-        <span className="letter">H</span>
-        <span className="letter">E</span>
+        <span className="letter">G</span>
+        <span className="letter">R</span>
+        <span className="letter">A</span>
+        <span className="letter">A</span>
         <span className="letter">L</span>
-        <span className="letter">L</span>
-        <span className="letter">O</span>
       </h1>
       <section id="nextSection">
         <div id="box1" className="box">
-          Box 1
+          <h3>ARTHUR</h3>
         </div>
         <div id="box2" className="box">
-          Box 2
+          Prêt pour une quête hors du commun ?
         </div>
         <div id="box3" className="box">
-          Box 3
+          Ecoute
         </div>
         <div id="box4" className="box">
-          Box 4
+          Ton guide
         </div>
       </section>
 
@@ -167,7 +167,7 @@ export default function ScrollDame() {
           onMouseEnter={onEnter}
           onMouseLeave={onLeave}
         >
-          Last section
+          La douce Dame du Lac
         </div>
       </section>
     </div>

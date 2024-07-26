@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Alegreya";
 }
 
 section {
@@ -10,17 +13,10 @@ section {
   flex-direction: column;
   overflow: hidden;
 }
-
-.box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 50vh;
-  font-size: 10vw;
-  border-bottom: 1px solid #666;
-}
-
 .title {
+  background-color: #242e35;
+  color: #b28046;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,4 +28,39 @@ section {
 .letter {
   font-size: 15vw;
   display: inline-block;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+  font-size: 10vw;
+  border-bottom: 1px solid #666;
+}
+
+.box h3 {
+  color: #e5c99a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #e5c99a43;
+  padding: 10px;
+  margin: 0;
+}
+
+#box1 {
+  background-image: url("../assets/arthur.jpg");
+  background-repeat: no-repeat;
+}
+
+#box2 {
+  color: #b28046;
+}
+
+#box5 {
+  background: url("https://loading.io/background/m-wave");
 }

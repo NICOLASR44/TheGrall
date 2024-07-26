@@ -5,7 +5,6 @@ export default function ModalDame({ isOpen, onClose }) {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-        <h1>Bonjour Arthur</h1>
         <p>
           Cet objet inconnu que tu tiens dans tes mains, vient du futur.
           <br />
@@ -17,7 +16,7 @@ export default function ModalDame({ isOpen, onClose }) {
           tu seras époustoufflé.
         </p>
         <button className="modal-button" onClick={onClose}>
-          Fermer
+          X
         </button>
       </div>
     </div>

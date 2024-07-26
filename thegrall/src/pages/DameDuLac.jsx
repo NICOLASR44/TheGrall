@@ -18,8 +18,11 @@ export default function DameDuLac() {
       <div className="dameContainer" onClick={handleClick}>
         {/* <h1 className="dameTitle">Bonjour Arthur</h1> */}
         <button className="dameButton">
-          <Link to="/carte" className="linkToCarte">
-            COMMENCER MA QUETE
+          <span className="circle" aria-hidden="true">
+            <span className="icon arrow"></span>
+          </span>
+          <Link to="/carte" className="button-text">
+            COMMENCER
           </Link>
         </button>
       </div>
