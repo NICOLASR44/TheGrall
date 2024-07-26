@@ -1,23 +1,9 @@
-// import InfoLieux from "../components/InfoLieux";
-// import WazeWidget from "../components/Waze";
-
-// function DescriptionSite() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <InfoLieux />
-//         <WazeWidget />
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default DescriptionSite;
-
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Parallax } from "react-parallax";
 import WazeWidget from "../components/Waze";
+import "../styles/Description_sites.css";
 
 function DescriptionSite() {
   const { id } = useParams();
@@ -34,15 +20,17 @@ function DescriptionSite() {
   if (!lieu) return <div>Loading...</div>;
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>{lieu.nom}</h1>
-        <p>{lieu.description}</p>
-        <img src={lieu.image} alt="imageLieu" />
-
-        <WazeWidget />
-      </header>
-    </div>
+    <>
+      <div className="siteContainer">
+        <Parallax bgImage={lieu.image} strength={500}>
+          <div className="App-header">
+            <h1>{lieu.nom}</h1>
+            <p>{lieu.description}</p>
+          </div>
+        </Parallax>
+      </div>
+      <WazeWidget />
+    </>
   );
 }
 
