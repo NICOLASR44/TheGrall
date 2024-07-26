@@ -21,15 +21,17 @@ function DescriptionSite() {
 
   return (
     <>
-      <div className="siteContainer">
-        <Parallax bgImage={lieu.image} strength={500}>
-          <div className="App-header">
-            <h1>{lieu.nom}</h1>
-            <p>{lieu.description}</p>
-          </div>
-        </Parallax>
+      <div className="globalDivDescription">
+        <div className="siteContainer">
+          <Parallax bgImage={lieu.image} strength={500}>
+            <div className="App-header">
+              <h1>{lieu.nom}</h1>
+              <p>{lieu.description}</p>
+            </div>
+          </Parallax>
+        </div>
+        <WazeWidget />
       </div>
-      <WazeWidget />
     </>
   );
 }
