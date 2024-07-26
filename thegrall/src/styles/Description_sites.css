@@ -1,0 +1,19 @@
+.siteContainer {
+  height: 75vh; /* Ajuste selon tes besoins */
+  overflow: hidden;
+}
+
+.App-header {
+  height: 500px; /* Ajuste selon tes besoins */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Assure-toi que le texte est lisible */
+  background: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent si nécessaire */
+}
+
+h1,
+p {
+  text-align: center;
+}
