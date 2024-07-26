@@ -7,17 +7,32 @@
     position: relative;
     display: inline-block;
     width: 100%;
-    /* height: auto; */
+    height: auto;
 }
 
-.map-point {
+
+/* 
+Camelot {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  width: 12vh;
   border-radius: 50%;
   cursor: pointer;
   transform: translate(-50%, -50%);
+} */
+
+.map-point {
+  position: absolute;
+  width: 8vh;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  transition: box-shadow 0.3s ease-in-out;
+  /* box-shadow: 0px 0px 72px 27px rgba(255,60,46,0.66); */
+  
 }
 
 }
+
+}
+
+
