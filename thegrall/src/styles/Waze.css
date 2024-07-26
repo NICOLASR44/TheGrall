@@ -1,0 +1,46 @@
+.wazeContainer {
+  margin-top: 20px;
+  background-color: black;
+
+  .textWazeContainer {
+    margin-top: 5%;
+  }
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+}
+
+.animated-text {
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  color: white;
+  flex-direction: column;
+}
+
+.text-1,
+.text-2 {
+  position: relative;
+  opacity: 0;
+  animation: fadeInOut 4s linear infinite;
+  text-align: center;
+}
+
+.text-2 {
+  animation-delay: 4s;
+  text-align: center;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+}

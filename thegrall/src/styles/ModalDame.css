@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --beigeClair: #e5c99a;
+  --beigeFoncé: #b28046;
+  --bleuPrusse: #103350;
+  --bleuFoncé: #242e35;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #e5c99abb;
+  -webkit-box-shadow: 0px 0px 132px 23px rgba(229, 201, 154, 0.65);
+  -moz-box-shadow: 0px 0px 132px 23px rgba(229, 201, 154, 0.65);
+  box-shadow: 0px 0px 132px 23px rgba(229, 201, 154, 0.65);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--bleuPrusse);
+  font-family: "Alegreya";
+  width: 70%;
+  p {
+    font-size: 1.5rem;
+  }
+  .modal-button {
+    background-color: var(--bleuPrusse);
+    color: var(--beigeClair);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
