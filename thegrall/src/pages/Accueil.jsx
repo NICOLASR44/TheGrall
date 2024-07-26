@@ -5,8 +5,10 @@ export default function Accueil() {
 	return (
 		<>
 			<div className="accueilContainer">
-				<h1 className="accueilTitle">Je suis dans accueil</h1>;
-				<Link to="/dame">DAME</Link>
+				<h1 className="accueilTitle">The GRAAL</h1>;
+				<Link className="btnLink" to="dame">
+					Enter
+				</Link>
 			</div>
 		</>
 	);
