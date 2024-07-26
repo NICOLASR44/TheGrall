@@ -44,7 +44,7 @@ const dataSites = [
     left: 35,
     dataInfo:
       "La quête mythique entreprise par les chevaliers de la Table Ronde pour trouver le Saint Graal, une coupe sacrée qui apporterait l'illumination divine et la guérison à ceux qui la possèdent.",
-    btnLink: "/description/3",
+    btnLink: "/description/4",
   },
 
   {
@@ -57,7 +57,7 @@ const dataSites = [
     left: 50,
 
     dataInfo: "Ce fameux endroit te permettra d'arroser tranquilement les poissons .",
-    btnLink: "/description/4",
+    btnLink: "/description/3",
   },
 ];
 
