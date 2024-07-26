@@ -23,5 +23,6 @@ const WazeWidget = () => {
     </div>
   );
 };
+// test ajout commitgit
 
 export default WazeWidget;
