@@ -10,8 +10,10 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 export default function ScrollDame() {
   const titleRef = useRef();
+  const audioRef = useRef(null);
 
   const onLoad = () => {
+    audioRef.current.play();
     gsap
       .timeline({
         onComplete: function () {
@@ -138,6 +140,9 @@ export default function ScrollDame() {
 
   return (
     <div className="App">
+      <audio ref={audioRef} autoPlay loop>
+        <source src="../assets/musique.mp3" type="audio/mpeg" />
+      </audio>
       <h1 className="title" ref={titleRef}>
         <span className="letter">G</span>
         <span className="letter">R</span>
