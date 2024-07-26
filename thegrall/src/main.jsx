@@ -6,9 +6,10 @@ import App from "./App.jsx";
 import Accueil from "./pages/Accueil.jsx";
 import DameDuLac from "./pages/DameDuLac.jsx";
 import Carte from "./pages/Carte.jsx";
+import DescriptionSite from "./pages/Description_sites.jsx";
+import GameOver from "./pages/GameOver.jsx";
 
 import "./index.css";
-import DescriptionSite from "./pages/Description_sites.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/description/:id",
         element: <DescriptionSite />,
+      },
+      {
+        path: "/over",
+        element: <GameOver />,
       },
     ],
   },
