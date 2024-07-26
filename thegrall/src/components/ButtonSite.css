@@ -2,8 +2,11 @@
     position: absolute;
     cursor: pointer;
     transform: translate(-50%, -50%);
+
 }
-    
+.button.site:hover {
+  transform: rotate (360deg)
+}
   
     .button.site.graal {
         width: 5vh;
