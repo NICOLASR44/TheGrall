@@ -2,10 +2,10 @@ import { useState } from "react";
 
 import MapPoint from "/src/components/BouttonSiteGraal";
 
-import Button1 from "../assets/button1.png";
-import Button2 from "../assets/button2.png";
-import Button3 from "../assets/button3.png";
-import Button4 from "../assets/button4.png";
+import Button1 from "../assets/button01.png";
+import Button2 from "../assets/button02.png";
+import Button3 from "../assets/button03.png";
+import Button4 from "../assets/button04.png";
 
 import "../styles/Carte.css";
 // import "../components/ButtonSite.css";
@@ -16,7 +16,7 @@ const dataSites = [
 		src: Button1,
 		className: "button.site.graal",
 		alt: "button.site.graal",
-		top: 50,
+		top: 40,
 		left: 50,
 		dataInfo:
 			"La quête mythique entreprise par les chevaliers de la Table Ronde pour trouver le Saint Graal, une coupe sacrée qui apporterait l'illumination divine et la guérison à ceux qui la possèdent.",
@@ -32,7 +32,7 @@ const dataSites = [
 		left: 20,
 		dataInfo:
 			"La légendaire forteresse du Roi Arthur, centre de la Table Ronde. Tu y trouveras toutes les armes dont tu aura besoin",
-		btnLink: "/camelot",
+		btnLink: "/",
 	},
 
 	{
