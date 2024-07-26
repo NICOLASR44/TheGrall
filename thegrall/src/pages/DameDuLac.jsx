@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "../styles/DameDuLac.css";
 import { useState } from "react";
 import ModalDame from "../components/ModalDame";
 import ScrollDame from "../components/ScrollDame";
+import "../styles/DameDuLac.css";
 
 export default function DameDuLac() {
   const [isModalOpen, setIsModalOpen] = useState(false);

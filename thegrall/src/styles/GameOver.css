@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
+
+.gameOver-container {
+  background-image: url("../assets/Waze_roi_arthur.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--beigeFoncé);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.gameOver-container h2 {
+  font-family: "Noto Color Emoji", sans-serif;
+  color: #103350;
+  font-size: 2rem;
+}
+
+.gameOver-container img {
+  position: absolute;
+  bottom: 80px; /* Place l'image en bas de la page */
+  left: 50%; /* Centre horizontalement l'image */
+  transform: translateX(-50%); /* Centre précisément l'image */
+  border: 10px solid #103350;
+}

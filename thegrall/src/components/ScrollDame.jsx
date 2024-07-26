@@ -141,7 +141,7 @@ export default function ScrollDame() {
   return (
     <div className="App">
       <audio ref={audioRef} autoPlay loop>
-        <source src="../assets/musique.mp3" type="audio/mpeg" />
+        <source src="../assets/musique.mp3" type="audio/mp3" />
       </audio>
       <h1 className="title" ref={titleRef}>
         <span className="letter">G</span>
@@ -165,14 +165,15 @@ export default function ScrollDame() {
         </div>
       </section>
 
-      <section id="lastSection">
+      <section className="lastSection">
         <div
           id="box5"
           className="box"
           onMouseEnter={onEnter}
           onMouseLeave={onLeave}
         >
-          La douce Dame du Lac
+          {/* <span>La douce Dame du Lac</span> */}
+          <span>La douce Dame du Lac</span>
         </div>
       </section>
     </div>
