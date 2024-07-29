@@ -4,14 +4,16 @@ import "../styles/Waze.css";
 const WazeWidget = () => {
   return (
     <div className="wazeContainer">
-      <h1>Camelot Navigation</h1>
-      <h3 className="animated-text">
-        <span className="text-1">🏰 Bientôt 🏰</span>
-        <span className="text-2">🏰 Disponible 🏰</span> <br />
-        <h4>
-          Tu pourras être guidé directement <br /> vers le lieu choisi
-        </h4>
-      </h3>
+      <div className="textWazeContainer">
+        <h1>Camelot Navigation</h1>
+        <h3 className="animated-text">
+          <span className="text-1">🏰 Bientôt 🏰</span>
+          <span className="text-2">🏰 Disponible 🏰</span> <br />
+          <h4>
+            Tu pourras être guidé directement <br /> vers le lieu choisi
+          </h4>
+        </h3>
+      </div>
       <iframe
         src="https://embed.waze.com/iframe?zoom=14&lat=48.858844&lon=2.294351"
         width="100%"
@@ -21,5 +23,6 @@ const WazeWidget = () => {
     </div>
   );
 };
+// test ajout commitgit
 
 export default WazeWidget;

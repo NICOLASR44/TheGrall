@@ -1,4 +1,10 @@
 .wazeContainer {
+  margin-top: 20px;
+  background-color: black;
+
+  .textWazeContainer {
+    margin-top: 5%;
+  }
   h1 {
     text-align: center;
   }
@@ -10,7 +16,7 @@
 .animated-text {
   position: relative;
   display: flex;
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
   flex-direction: column;
 }
